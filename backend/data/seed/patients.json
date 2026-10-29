@@ -1,0 +1,161 @@
+[
+  {
+    "id": "pt-emma",
+    "alias": "Emma (16y)",
+    "sex": "F",
+    "age_years": 16,
+    "diagnosis_text": "High-Risk Neuroblastoma in inductiefase",
+    "diagnosis_category": "OTHER",
+    "protocol": "HR-NBL2 (RAPID COJEC)",
+    "weight_kg": 52,
+    "height_cm": 165,
+    "bsa_m2": 1.54,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "tablets",
+    "fictional_fields": [
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-noah",
+    "alias": "Noah (2y)",
+    "sex": "M",
+    "age_years": 2,
+    "diagnosis_text": "Acute Lymfatische Leukemie (ALL)",
+    "diagnosis_category": "ALL",
+    "protocol": "ALLTogether1 (Inductie B)",
+    "weight_kg": 13,
+    "height_cm": 90,
+    "bsa_m2": 0.57,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "liquid_only",
+    "fictional_fields": [
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-lucas",
+    "alias": "Lucas (14y)",
+    "sex": "M",
+    "age_years": 14,
+    "diagnosis_text": "Ewing Sarcoom",
+    "diagnosis_category": "OTHER",
+    "protocol": "iEuroEwing",
+    "weight_kg": 46,
+    "height_cm": 160,
+    "bsa_m2": 1.43,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "tablets",
+    "fictional_fields": [
+      "age_years",
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-sarah",
+    "alias": "Sarah (7y)",
+    "sex": "F",
+    "age_years": 7,
+    "diagnosis_text": "Acute Myeloïde Leukemie (AML)",
+    "diagnosis_category": "AML",
+    "protocol": "AML-BFM",
+    "weight_kg": 24,
+    "height_cm": 120,
+    "bsa_m2": 0.89,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "tablets",
+    "fictional_fields": [
+      "patient_case",
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-milan",
+    "alias": "Milan (8y)",
+    "sex": "M",
+    "age_years": 8,
+    "diagnosis_text": "Wilms Tumor (Nefroblastoom)",
+    "diagnosis_category": "OTHER",
+    "protocol": "SIOP-RTSG",
+    "weight_kg": 25,
+    "height_cm": 126,
+    "bsa_m2": 0.94,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "tablets",
+    "fictional_fields": [
+      "patient_case",
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-elena",
+    "alias": "Elena (5y)",
+    "sex": "F",
+    "age_years": 5,
+    "diagnosis_text": "Medulloblastoom (Hersentumor)",
+    "diagnosis_category": "BRAIN_TUMOR",
+    "protocol": "SIOP-PNET",
+    "weight_kg": 18,
+    "height_cm": 108,
+    "bsa_m2": 0.74,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "ng_tube",
+    "fictional_fields": [
+      "patient_case",
+      "weight_kg",
+      "height_cm"
+    ]
+  },
+  {
+    "id": "pt-liam",
+    "alias": "Liam (11y)",
+    "sex": "M",
+    "age_years": 11,
+    "diagnosis_text": "Osteosarcoom",
+    "diagnosis_category": "OTHER",
+    "protocol": "EURAMOS-1 (Carboplatin + Doxorubicin)",
+    "weight_kg": 38,
+    "height_cm": 145,
+    "bsa_m2": 1.24,
+    "flags": {
+      "dinutuximab_beta": false,
+      "car_t": false
+    },
+    "language": "NL",
+    "swallow": "tablets",
+    "fictional_fields": [
+      "patient_case",
+      "weight_kg",
+      "height_cm"
+    ]
+  }
+]

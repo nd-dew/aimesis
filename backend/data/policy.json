@@ -1,0 +1,105 @@
+{
+  "source": "POGO: Guideline for classification of the acute emetogenic potential of antineoplastic medication in pediatric cancer patients (Dupuis et al., quick summary, Tables 1-2). https://www.pogo.ca/wp-content/uploads/2014/10/POGO-Emetogenicity-Classification-Guideline-Summary-Final-rev-250111.pdf",
+  "alias_source": "team (name resolution only, not clinical)",
+  "aliases": {
+    "vinc": "vincristine",
+    "vcr": "vincristine",
+    "carbo": "carboplatin",
+    "carboplatine": "carboplatin",
+    "cis": "cisplatin",
+    "cisplatine": "cisplatin",
+    "cisplatinum": "cisplatin",
+    "dtic": "dacarbazine",
+    "doxo": "doxorubicin",
+    "doxorubicine": "doxorubicin",
+    "adriamycine": "doxorubicin",
+    "adriamycin": "doxorubicin",
+    "cyclo": "cyclophosphamide",
+    "cyclofosfamide": "cyclophosphamide",
+    "dauno": "daunorubicin",
+    "daunorubicine": "daunorubicin",
+    "dacti": "dactinomycin",
+    "dactinomycine": "dactinomycin",
+    "actinomycin d": "dactinomycin",
+    "ifo": "ifosfamide",
+    "mtx": "methotrexate",
+    "methotrexaat": "methotrexate",
+    "ara-c": "cytarabine",
+    "arac": "cytarabine",
+    "vp16": "etoposide",
+    "vp-16": "etoposide",
+    "vm26": "teniposide",
+    "caelyx": "doxorubicin liposomal",
+    "doxorubicine liposomaal": "doxorubicin liposomal",
+    "liposomal doxorubicin": "doxorubicin liposomal",
+    "triple it": "intrathecal therapy",
+    "pegasparaginase": "asparaginase",
+    "peg-asparaginase": "asparaginase",
+    "erwinase": "asparaginase"
+  },
+  "anthracyclines": ["doxorubicin", "daunorubicin", "epirubicin", "idarubicin"],
+  "corticosteroids": ["dexamethasone", "dexamethason", "prednisolone", "prednisolon", "prednisone", "prednison", "methylprednisolone", "methylprednisolon", "hydrocortisone"],
+  "tiers": {
+    "High": {
+      "label": "highly emetogenic",
+      "risk_percentage": ">90%",
+      "source": "POGO classification, Table 1 (high)",
+      "prophylaxis_summary": "Ondansetron + dexamethasone + aprepitant",
+      "drugs": ["altretamine", "carboplatin", "cisplatin", "dacarbazine", "dactinomycin", "mechlorethamine", "procarbazine", "streptozocin"],
+      "threshold_drugs": [
+        {"name": "carmustine", "min": 250, "min_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: carmustine > 250 mg/m²"},
+        {"name": "cyclophosphamide", "min": 1000, "min_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: cyclophosphamide ≥ 1 g/m²"},
+        {"name": "cytarabine", "min": 3000, "min_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: cytarabine 3 g/m²/dose"},
+        {"name": "methotrexate", "min": 12000, "min_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: methotrexate ≥ 12 g/m²"},
+        {"name": "thiotepa", "min": 300, "min_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: thiotepa ≥ 300 mg/m²"}
+      ]
+    },
+    "Moderate": {
+      "label": "moderately emetogenic",
+      "risk_percentage": "30-90%",
+      "source": "POGO classification, Table 1 (moderate)",
+      "prophylaxis_summary": "Ondansetron + dexamethasone (aprepitant if dexamethasone is contraindicated)",
+      "drugs": ["arsenic trioxide", "azacitidine", "bendamustine", "busulfan", "clofarabine", "daunorubicin", "doxorubicin", "epirubicin", "idarubicin", "ifosfamide", "imatinib", "intrathecal therapy", "irinotecan", "lomustine", "temozolomide"],
+      "threshold_drugs": [
+        {"name": "carmustine", "max": 250, "max_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: carmustine ≤ 250 mg/m²"},
+        {"name": "cyclophosphamide", "max": 1000, "max_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: cyclophosphamide < 1 g/m²"},
+        {"name": "cytarabine", "min": 200, "min_inclusive": false, "max": 3000, "max_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: cytarabine > 200 mg to < 3 g/m²"},
+        {"name": "melphalan", "min": 50, "min_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: melphalan > 50 mg/m²"},
+        {"name": "methotrexate", "min": 250, "min_inclusive": true, "max": 12000, "max_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: methotrexate ≥ 250 mg to < 12 g/m²"},
+        {"name": "oxaliplatin", "min": 75, "min_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: oxaliplatin > 75 mg/m²"}
+      ]
+    },
+    "Low": {
+      "label": "low emetogenic",
+      "risk_percentage": "10-30%",
+      "source": "POGO classification, Table 1 (low)",
+      "prophylaxis_summary": "Ondansetron",
+      "drugs": ["amsacrine", "bexarotene", "capecitabine", "docetaxel", "doxorubicin liposomal", "etoposide", "fluorouracil", "gemcitabine", "ixabepilone", "mitomycin", "mitoxantrone", "nilotinib", "paclitaxel", "pemetrexed", "teniposide", "topotecan", "vorinostat"],
+      "threshold_drugs": [
+        {"name": "cytarabine", "max": 200, "max_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: cytarabine ≤ 200 mg/m²"},
+        {"name": "methotrexate", "min": 50, "min_inclusive": false, "max": 250, "max_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: methotrexate > 50 to < 250 mg/m²"},
+        {"name": "thiotepa", "max": 300, "max_inclusive": false, "unit": "mg/m²", "source": "POGO classification, Table 1: thiotepa < 300 mg/m²"}
+      ]
+    },
+    "Minimal": {
+      "label": "minimally emetogenic",
+      "risk_percentage": "<10%",
+      "source": "POGO classification, Table 1 (minimal)",
+      "prophylaxis_summary": "No routine prophylaxis",
+      "drugs": ["alemtuzumab", "asparaginase", "bevacizumab", "bleomycin", "bortezomib", "cetuximab", "chlorambucil", "cladribine", "dasatinib", "decitabine", "dexrazoxane", "erlotinib", "fludarabine", "gefitinib", "gemtuzumab ozogamicin", "hydroxyurea", "interferon alfa", "lapatinib", "lenalidomide", "mercaptopurine", "nelarabine", "panitumumab", "pentostatin", "rituximab", "sorafenib", "sunitinib", "temsirolimus", "thalidomide", "thioguanine", "trastuzumab", "valrubicin", "vinblastine", "vincristine", "vindesine", "vinorelbine"],
+      "threshold_drugs": [
+        {"name": "methotrexate", "max": 50, "max_inclusive": true, "unit": "mg/m²", "source": "POGO classification, Table 1: methotrexate ≤ 50 mg/m²"}
+      ]
+    }
+  },
+  "combination_escalations": [
+    {"all_of": ["cyclophosphamide"], "group": "anthracyclines", "escalate_to": "High", "source": "POGO classification, Table 2: cyclophosphamide + anthracycline"},
+    {"all_of": ["cyclophosphamide", "etoposide"], "escalate_to": "High", "source": "POGO classification, Table 2: cyclophosphamide + etoposide"},
+    {"all_of": ["cytarabine", "daunorubicin"], "dose_ranges": {"cytarabine": {"min": 150, "max": 200}}, "escalate_to": "High", "source": "POGO classification, Table 2: cytarabine 150-200 mg/m² + daunorubicin"},
+    {"all_of": ["cytarabine", "etoposide"], "dose_ranges": {"cytarabine": {"min": 300, "max": 300}}, "escalate_to": "High", "source": "POGO classification, Table 2: cytarabine 300 mg/m² + etoposide"},
+    {"all_of": ["cytarabine", "teniposide"], "dose_ranges": {"cytarabine": {"min": 300, "max": 300}}, "escalate_to": "High", "source": "POGO classification, Table 2: cytarabine 300 mg/m² + teniposide"},
+    {"all_of": ["doxorubicin", "ifosfamide"], "escalate_to": "High", "source": "POGO classification, Table 2: doxorubicin + ifosfamide"},
+    {"all_of": ["doxorubicin", "methotrexate"], "dose_ranges": {"methotrexate": {"min": 5000, "max": 5000}}, "escalate_to": "High", "source": "POGO classification, Table 2: doxorubicin + methotrexate 5 g/m²"},
+    {"all_of": ["etoposide", "ifosfamide"], "escalate_to": "High", "source": "POGO classification, Table 2: etoposide + ifosfamide"}
+  ]
+}

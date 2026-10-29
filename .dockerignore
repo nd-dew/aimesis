@@ -1,0 +1,11 @@
+.git
+**/node_modules
+**/.venv
+**/__pycache__
+**/*.pyc
+frontend/dist
+backend/data/runtime
+backend/tests
+backend/.env
+swg-use-cases
+docs

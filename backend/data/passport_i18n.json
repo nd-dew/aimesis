@@ -1,0 +1,89 @@
+{
+  "NL": {
+    "hospital": "Kinderoncologie",
+    "contact_info": "Contacteer uw behandelend team / afdeling",
+    "time_labels": {
+      "morning": "Ochtend",
+      "afternoon": "Middag",
+      "evening": "Avond"
+    },
+    "empty_slots": {
+      "morning": "Geen ochtendmedicatie",
+      "afternoon": "Geen middagmedicatie",
+      "evening": "Geen avondmedicatie"
+    },
+    "red_flag_title": "Wanneer onmiddellijk contact opnemen met het ziekenhuis (Rode Vlaggen):",
+    "red_flags": [
+      "Kan geen vloeistoffen binnenhouden gedurende meer dan 8 uur",
+      "Minder natte luiers of niet geplast gedurende meer dan 12 uur",
+      "Uitzonderlijke sufheid, verwardheid of duizeligheid",
+      "Koorts >= 38.3°C gelijktijdig met misselijkheid of braken"
+    ],
+    "companion": {
+      "care_team_will_share": "Uw behandelend team zal het medicatieschema delen",
+      "log_nausea": "Misselijkheid registreren",
+      "undo": "Ongedaan maken",
+      "no_logs": "Nog geen registraties voor deze periode",
+      "header_subtitle": "Ouderportaal voor CINV opvolging thuis",
+      "recent_logs_title": "Recente registraties"
+    }
+  },
+  "FR": {
+    "hospital": "Oncologie pédiatrique",
+    "contact_info": "Contactez votre équipe soignante / service",
+    "time_labels": {
+      "morning": "Matin",
+      "afternoon": "Après-midi",
+      "evening": "Soir"
+    },
+    "empty_slots": {
+      "morning": "Aucun médicament le matin",
+      "afternoon": "Aucun médicament l'après-midi",
+      "evening": "Aucun médicament le soir"
+    },
+    "red_flag_title": "Quand contacter immédiatement l'hôpital (Signes d'alerte) :",
+    "red_flags": [
+      "Incapable de garder des liquides pendant plus de 8 heures",
+      "Moins de couches mouillées ou pas d'urine pendant plus de 12 heures",
+      "Léthargie inhabituelle, confusion ou vertiges",
+      "Fièvre >= 38.3°C en même temps que nausées ou vomissements"
+    ],
+    "companion": {
+      "care_team_will_share": "Votre équipe soignante partagera le calendrier des médicaments",
+      "log_nausea": "Signaler des nausées",
+      "undo": "Annuler",
+      "no_logs": "Aucun enregistrement pour le moment",
+      "header_subtitle": "Portail familial pour le suivi du CINV à domicile",
+      "recent_logs_title": "Enregistrements récents"
+    }
+  },
+  "EN": {
+    "hospital": "Pediatric oncology",
+    "contact_info": "Contact your treating team / ward",
+    "time_labels": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "evening": "Evening"
+    },
+    "empty_slots": {
+      "morning": "No morning medication",
+      "afternoon": "No afternoon medication",
+      "evening": "No evening medication"
+    },
+    "red_flag_title": "When to contact the hospital immediately (Red Flag Symptoms):",
+    "red_flags": [
+      "Cannot keep fluids down for more than 8 hours",
+      "Fewer wet diapers or no urination for more than 12 hours",
+      "Extreme lethargy, confusion, or dizziness",
+      "Fever >= 38.3°C alongside nausea or vomiting"
+    ],
+    "companion": {
+      "care_team_will_share": "Your care team will share the schedule",
+      "log_nausea": "Log Nausea",
+      "undo": "Undo",
+      "no_logs": "No logs yet for this period",
+      "header_subtitle": "Bedside & Home Companion for Pediatric CINV Tracking",
+      "recent_logs_title": "Recent Symptom Logs"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "aprepitant_cyp3a4_2c9",
+    "trigger_drugs": ["aprepitant", "fosaprepitant"],
+    "concomitant_triggers": ["*"],
+    "level": "INFO",
+    "message": "Aprepitant: check interactions (CYP3A4).",
+    "source": "POGO Satellite Manual 4.3 (2022): drugs known or suspected to interact with aprepitant",
+    "verified": true
+  },
+  {
+    "id": "vincristine_azole",
+    "trigger_drugs": ["vincristine"],
+    "concomitant_triggers": [
+      "voriconazole", "voriconazol", "vfend",
+      "itraconazole", "itraconazol", "sporanox",
+      "posaconazole", "posaconazol", "noxafil",
+      "fluconazole", "fluconazol", "diflucan",
+      "ketoconazole", "ketoconazol"
+    ],
+    "level": "WARNING",
+    "message": "Vincristine + Azole antifungal interaction: Concomitant CYP3A4 inhibition increases neurotoxicity (paralytic ileus, severe neuropathy).",
+    "source": "general pharmacology (not from POGO/CCLG)",
+    "verified": false
+  },
+  {
+    "id": "ondansetron_qtc",
+    "trigger_drugs": ["ondansetron"],
+    "concomitant_triggers": [
+      "ciprofloxacin", "ciprofloxacine", "cipro",
+      "levofloxacin", "levofloxacine",
+      "amiodarone", "amiodaron", "cordarone",
+      "sotalol", "haloperidol", "haldol",
+      "methadone", "methadon",
+      "voriconazole", "voriconazol"
+    ],
+    "level": "WARNING",
+    "message": "QTc prolongation risk: Ondansetron combined with QTc-prolonging concomitant medication. Monitor baseline ECG.",
+    "source": "general pharmacology (not from POGO/CCLG)",
+    "verified": false
+  }
+]

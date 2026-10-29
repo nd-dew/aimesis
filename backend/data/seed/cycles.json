@@ -1,0 +1,586 @@
+[
+  {
+    "id": "cy-emma-a1",
+    "patient_id": "pt-emma",
+    "date": "2026-07-17",
+    "label": "A1",
+    "course_type": "A",
+    "sequence": 1,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "carboplatin"
+      },
+      {
+        "drug": "etoposide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-b1",
+    "patient_id": "pt-emma",
+    "date": "2026-07-27",
+    "label": "B1",
+    "course_type": "B",
+    "sequence": 2,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "cisplatin",
+        "dose_mg_m2": 80
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-c1",
+    "patient_id": "pt-emma",
+    "date": "2026-08-06",
+    "label": "C1",
+    "course_type": "C",
+    "sequence": 3,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "etoposide"
+      },
+      {
+        "drug": "cyclophosphamide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-b2",
+    "patient_id": "pt-emma",
+    "date": "2026-08-16",
+    "label": "B2",
+    "course_type": "B",
+    "sequence": 4,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "cisplatin",
+        "dose_mg_m2": 80
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-a2",
+    "patient_id": "pt-emma",
+    "date": "2026-08-26",
+    "label": "A2",
+    "course_type": "A",
+    "sequence": 5,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "carboplatin"
+      },
+      {
+        "drug": "etoposide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-b3",
+    "patient_id": "pt-emma",
+    "date": "2026-09-05",
+    "label": "B3",
+    "course_type": "B",
+    "sequence": 6,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "cisplatin",
+        "dose_mg_m2": 80
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [
+      {
+        "drug": "ondansetron",
+        "frequency": "2x/d"
+      },
+      {
+        "drug": "aprepitant",
+        "frequency": "1x/d"
+      },
+      {
+        "drug": "dexamethasone",
+        "frequency": "2x/d"
+      },
+      {
+        "drug": "olanzapine",
+        "frequency": "1x/d"
+      }
+    ],
+    "outcome": {
+      "nausea": true,
+      "vomiting": false,
+      "first_day": 2,
+      "note": "nauseaklachten ondanks anti-emetica, geen braken",
+      "source": "toernota"
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-c2",
+    "patient_id": "pt-emma",
+    "date": "2026-09-15",
+    "label": "C2",
+    "course_type": "C",
+    "sequence": 7,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "etoposide"
+      },
+      {
+        "drug": "cyclophosphamide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-emma-b4",
+    "patient_id": "pt-emma",
+    "date": "2026-09-25",
+    "label": "B4",
+    "course_type": "B",
+    "sequence": 8,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "cisplatin",
+        "dose_mg_m2": 80
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-noah-d1",
+    "patient_id": "pt-noah",
+    "date": "2026-09-12",
+    "label": "Induction B D1",
+    "course_type": "Induction B",
+    "sequence": 1,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "daunorubicin",
+        "dose_mg_m2": 25
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": true,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false,
+      "note": "geen misselijkheid of braken bij vorige toediening"
+    },
+    "fictional_fields": [
+      "date"
+    ]
+  },
+  {
+    "id": "cy-noah-d8",
+    "patient_id": "pt-noah",
+    "date": "2026-09-19",
+    "label": "Induction B D8",
+    "course_type": "Induction B",
+    "sequence": 2,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "vincristine",
+        "dose_mg_m2": 1.5
+      },
+      {
+        "drug": "daunorubicin",
+        "dose_mg_m2": 25
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": true,
+    "prophylaxis_given": [],
+    "fictional_fields": []
+  },
+  {
+    "id": "cy-lucas-ie1",
+    "patient_id": "pt-lucas",
+    "date": "2026-07-01",
+    "label": "IE1",
+    "course_type": "IE",
+    "sequence": 1,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "ifosfamide",
+        "dose_mg_m2": 1800,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "drug": "etoposide",
+        "dose_mg_m2": 100,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "is_multiday": true,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": true,
+      "vomiting": true,
+      "first_day": 4,
+      "note": "misselijkheid en braken op dag 4",
+      "source": "dossier"
+    },
+    "fictional_fields": [
+      "date"
+    ]
+  },
+  {
+    "id": "cy-lucas-vdc1",
+    "patient_id": "pt-lucas",
+    "date": "2026-07-22",
+    "label": "VDC1",
+    "course_type": "VDC",
+    "sequence": 2,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "doxorubicin"
+      },
+      {
+        "drug": "cyclophosphamide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": [
+      "date"
+    ]
+  },
+  {
+    "id": "cy-lucas-ie2",
+    "patient_id": "pt-lucas",
+    "date": "2026-08-12",
+    "label": "IE2",
+    "course_type": "IE",
+    "sequence": 3,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "ifosfamide",
+        "dose_mg_m2": 1800,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "drug": "etoposide",
+        "dose_mg_m2": 100,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "is_multiday": true,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "outcome": {
+      "nausea": true,
+      "vomiting": true,
+      "first_day": 4,
+      "note": "misselijkheid en braken op dag 4",
+      "source": "dossier"
+    },
+    "fictional_fields": [
+      "date"
+    ]
+  },
+  {
+    "id": "cy-lucas-ie3",
+    "patient_id": "pt-lucas",
+    "date": "2026-09-02",
+    "label": "IE3",
+    "course_type": "IE",
+    "sequence": 4,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "ifosfamide",
+        "dose_mg_m2": 1800,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "drug": "etoposide",
+        "dose_mg_m2": 100,
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "is_multiday": true,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": [
+      "date"
+    ]
+  },
+  {
+    "id": "cy-sarah-c1",
+    "patient_id": "pt-sarah",
+    "date": "2026-09-20",
+    "label": "Cyclus 1 Inductie",
+    "course_type": "Inductie",
+    "sequence": 1,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "cytarabine",
+        "dose_mg_m2": 200
+      },
+      {
+        "drug": "daunorubicin",
+        "dose_mg_m2": 30
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": [
+      "all"
+    ]
+  },
+  {
+    "id": "cy-milan-c1",
+    "patient_id": "pt-milan",
+    "date": "2026-09-20",
+    "label": "Pre-operatief Cyclus 1",
+    "course_type": "Pre-op",
+    "sequence": 1,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "vincristine"
+      },
+      {
+        "drug": "dactinomycin",
+        "dose_mg_m2": 1
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": [
+      "all"
+    ]
+  },
+  {
+    "id": "cy-elena-c1",
+    "patient_id": "pt-elena",
+    "date": "2026-09-20",
+    "label": "Inductie Cyclus 1",
+    "course_type": "Inductie",
+    "sequence": 1,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "carboplatin"
+      },
+      {
+        "drug": "etoposide"
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": [
+      "all"
+    ]
+  },
+  {
+    "id": "cy-liam-c1",
+    "patient_id": "pt-liam",
+    "date": "2026-09-10",
+    "label": "Cyclus 1 (Carbo+Doxo)",
+    "course_type": "Carbo-Doxo",
+    "sequence": 1,
+    "status": "given",
+    "regimen": [
+      {
+        "drug": "carboplatin",
+        "dose_mg_m2": 400
+      },
+      {
+        "drug": "doxorubicin",
+        "dose_mg_m2": 37.5
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [
+      {
+        "drug": "ondansetron",
+        "frequency": "3x/d"
+      },
+      {
+        "drug": "dexamethasone"
+      }
+    ],
+    "outcome": {
+      "nausea": false,
+      "vomiting": false
+    },
+    "fictional_fields": [
+      "all"
+    ]
+  },
+  {
+    "id": "cy-liam-c2",
+    "patient_id": "pt-liam",
+    "date": "2026-10-01",
+    "label": "Cyclus 2 (Carbo+Doxo)",
+    "course_type": "Carbo-Doxo",
+    "sequence": 2,
+    "status": "planned",
+    "regimen": [
+      {
+        "drug": "carboplatin",
+        "dose_mg_m2": 400
+      },
+      {
+        "drug": "doxorubicin",
+        "dose_mg_m2": 37.5
+      }
+    ],
+    "is_multiday": false,
+    "regimen_contains_corticoids": false,
+    "prophylaxis_given": [],
+    "fictional_fields": [
+      "all"
+    ]
+  }
+]

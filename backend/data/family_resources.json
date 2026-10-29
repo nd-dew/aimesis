@@ -1,0 +1,218 @@
+[
+  {
+    "institute": "Fondation contre le Cancer",
+    "title": "La chimioth\u00e9rapie",
+    "format": "PDF",
+    "language": "FR",
+    "url": "https://www.cancer.be/ressource/la-chimiotherapie/",
+    "score": "\ud83d\udfe2 Low Effort (Direct French PDF download)"
+  },
+  {
+    "institute": "Stichting tegen Kanker",
+    "title": "Chemotherapie",
+    "format": "PDF",
+    "language": "NL",
+    "url": "https://www.cancer.be/ressource/chemotherapie/",
+    "score": "\ud83d\udfe2 Low Effort (Direct Dutch PDF download)"
+  },
+  {
+    "institute": "Stichting tegen Kanker",
+    "title": "Die Chemotherapie",
+    "format": "PDF",
+    "language": "DE",
+    "url": "https://www.cancer.be/ressource/chemotherapie-de/",
+    "score": "\ud83d\udfe2 Low Effort (Direct German PDF download)"
+  },
+  {
+    "institute": "CHU de Li\u00e8ge",
+    "title": "Les naus\u00e9es et les vomissements",
+    "format": "PDF",
+    "language": "FR",
+    "url": "https://www.chuliege.be/cms/c_60648/fr/broch-a5-les-nausees-et-les-vomissements-2024-pp",
+    "score": "\ud83d\udfe2 Low Effort (Direct clinical PDF download)"
+  },
+  {
+    "institute": "ZAS (Ziekenhuis aan de Stroom)",
+    "title": "Chemotherapie: Informatie voor pati\u00ebnten",
+    "format": "PDF",
+    "language": "NL",
+    "url": "https://media.zas.be/m/1be42769d38ec4ee/original/Chemotherapie.pdf",
+    "score": "\ud83d\udfe2 Low Effort (Direct regional PDF download)"
+  },
+  {
+    "institute": "AZ Org",
+    "title": "Chemotherapie... wat nu?",
+    "format": "PDF",
+    "language": "NL",
+    "url": "https://www.azorg.be/sites/default/files/patient_brochures/01016-NL.pdf",
+    "score": "\ud83d\udfe2 Low Effort (Direct clinical PDF download)"
+  },
+  {
+    "institute": "Fondation contre le Cancer",
+    "title": "Naus\u00e9es et vomissements",
+    "format": "Web Page / FAQ",
+    "language": "FR",
+    "url": "https://www.cancer.be/les-cancers/effets-secondaires/nausees-et-vomissements",
+    "score": "\ud83d\udfe2 Low Effort (Direct web article; simple language toggle)"
+  },
+  {
+    "institute": "Stichting tegen Kanker",
+    "title": "Misselijkheid en braken",
+    "format": "Web Page / FAQ",
+    "language": "NL",
+    "url": "https://www.cancer.be/kanker/bijwerkingen/misselijkheid-en-braken",
+    "score": "\ud83d\udfe2 Low Effort (Direct web article; simple language toggle)"
+  },
+  {
+    "institute": "AZ Groeninge",
+    "title": "Effets ind\u00e9sirables : naus\u00e9es et vomissements",
+    "format": "Web Page",
+    "language": "FR",
+    "url": "https://www.azgroeninge.be/fr/blogs/bijwerkingen-chemotherapie/effets-indesirables-chimiotherapie-nausees-et-vomissements",
+    "score": "\ud83d\udfe2 Low Effort (Direct matching French web guide)"
+  },
+  {
+    "institute": "AZ Groeninge",
+    "title": "Bijwerkingen chemotherapie: misselijkheid en braken",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.azgroeninge.be/nl/blogs/bijwerkingen-chemotherapie/bijwerkingen-chemotherapie-misselijkheid-en-braken",
+    "score": "\ud83d\udfe2 Low Effort (Direct matching Dutch web guide)"
+  },
+  {
+    "institute": "KickCancer Foundation",
+    "title": "Family Support & Research Hub",
+    "format": "Web Portal",
+    "language": "EN",
+    "url": "https://kickcancer.org/en",
+    "score": "\ud83d\udfe2 Low Effort (Trilingual toggle preserves homepage context)"
+  },
+  {
+    "institute": "KickCancer Foundation",
+    "title": "Guide pour les familles",
+    "format": "Web Portal",
+    "language": "FR",
+    "url": "https://kickcancer.org/fr",
+    "score": "\ud83d\udfe2 Low Effort (Trilingual toggle preserves homepage context)"
+  },
+  {
+    "institute": "KickCancer Foundation",
+    "title": "Gids voor families",
+    "format": "Web Portal",
+    "language": "NL",
+    "url": "https://kickcancer.org/nl",
+    "score": "\ud83d\udfe2 Low Effort (Trilingual toggle preserves homepage context)"
+  },
+  {
+    "institute": "UZ Leuven",
+    "title": "Misselijkheid en braken bij chemotherapie",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.uzleuven.be/nl/chemotherapie/bijwerkingen/misselijkheid-en-braken",
+    "score": "\ud83d\udfe1 Medium Effort (Excellent Dutch page. Switching languages resets to Home; must search 'CINV' in EN/FR)"
+  },
+  {
+    "institute": "UZ Leuven (KIDZ)",
+    "title": "Kinderoncologie en -hematologie",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.uzleuven.be/nl/kinderoncologie",
+    "score": "\ud83d\udfe1 Medium Effort (General portal. EN/FR landing pages exist, but pediatric files must be searched manually)"
+  },
+  {
+    "institute": "UZ Brussel / KidZ Health Castle",
+    "title": "KidZ Health Castle - Kinderoncologie",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.uzbrussel.be/web/kidz-health-castle/kinderoncologie",
+    "score": "\ud83d\udfe1 Medium Effort (Language toggle redirects to standard FR hospital homepage; must re-navigate)"
+  },
+  {
+    "institute": "UZ Brussel / KidZ Health Castle",
+    "title": "KidZ Health Castle - Oncologie p\u00e9diatrique",
+    "format": "Web Page",
+    "language": "FR",
+    "url": "https://www.uzbrussel.be/fr/web/kidz-health-castle/oncologie-pediatrique",
+    "score": "\ud83d\udfe1 Medium Effort (Language toggle redirects to standard NL hospital homepage; must re-navigate)"
+  },
+  {
+    "institute": "UZ Brussel / KidZ Health Castle",
+    "title": "KidZ Health Castle - General Overview",
+    "format": "Web Page",
+    "language": "EN",
+    "url": "https://www.uzbrussel.be/en/web/kidz-health-castle",
+    "score": "\ud83d\udfe1 Medium Effort (General English intro page; detail sheets require translation from NL/FR)"
+  },
+  {
+    "institute": "HUDERF / H.U.B (Brussels)",
+    "title": "H\u00e9mato-Oncologie P\u00e9diatrique - Accueil",
+    "format": "Web Page",
+    "language": "FR",
+    "url": "https://www.huderf.be/fr/services-medicaux/hemato-oncologie",
+    "score": "\ud83d\udfe1 Medium Effort (Brussels bilingual portal. Language toggle redirects to Dutch main services)"
+  },
+  {
+    "institute": "HUDERF / H.U.B (Brussels)",
+    "title": "Pediatrische Hemato-Oncologie - Onthaal",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.huderf.be/nl/medische-diensten/hemato-oncologie",
+    "score": "\ud83d\udfe1 Medium Effort (Brussels bilingual portal. Language toggle redirects to French main services)"
+  },
+  {
+    "institute": "Cliniques universitaires Saint-Luc",
+    "title": "Service d'H\u00e9mato-oncologie P\u00e9diatrique",
+    "format": "Web Page",
+    "language": "FR",
+    "url": "https://www.saintluc.be/fr/service-hemato-oncologie-pediatrique",
+    "score": "\ud83d\udfe1 Medium Effort (Bilingual toggle redirects to NL home; must navigate departments from scratch)"
+  },
+  {
+    "institute": "Cliniques universitaires Saint-Luc",
+    "title": "Dienst Pediatrische Hemato-oncologie",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.saintluc.be/nl/dienst-pediatrische-hemato-oncologie",
+    "score": "\ud83d\udfe1 Medium Effort (Bilingual toggle redirects to FR home; must navigate departments from scratch)"
+  },
+  {
+    "institute": "Cliniques universitaires Saint-Luc",
+    "title": "Pediatric Hematology and Oncology",
+    "format": "Web Page",
+    "language": "EN",
+    "url": "https://www.saintluc.be/en/pediatric-hematology-and-oncology-department",
+    "score": "\ud83d\udfe1 Medium Effort (English summaries are available, but detailed support guides remain in FR)"
+  },
+  {
+    "institute": "UZA (Queen Mathilde Center)",
+    "title": "Kinderoncologie en kinderhematologie",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.uza.be/oncologie-hematologie-kinderen",
+    "score": "\ud83d\udfe1 Medium Effort (Great localized portal, but no parallel FR/EN translation pages; browser translate required)"
+  },
+  {
+    "institute": "UZA / magUZA",
+    "title": "Kinderen met kanker behandelen is teamwerk",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://maguza.be/zorg/artikel/kinderen-met-kanker-behandelen-teamwerk",
+    "score": "\ud83d\udfe1 Medium Effort (Single-article parent FAQ guide; no native translation options)"
+  },
+  {
+    "institute": "Kinderkankerfonds vzw",
+    "title": "Publicaties & Gids voor Ouders",
+    "format": "Web Page",
+    "language": "NL",
+    "url": "https://www.kinderkankerfonds.be",
+    "score": "\ud83d\udd34 High Effort (Invaluable material, but you must register or order print booklets for complete physical guides)"
+  },
+  {
+    "institute": "BSPHO",
+    "title": "Clinical Treatment Protocols",
+    "format": "Web Page",
+    "language": "EN",
+    "url": "https://www.bspho.be",
+    "score": "\ud83d\udd34 High Effort (Scientific medical guidelines meant for professionals; high-level CINV drug terminology)"
+  }
+]
